@@ -1,0 +1,51 @@
+{
+  "name": "wysknd-identity",
+  "version": "0.0.1",
+  "description": "Library containing classes and utilities for identity management",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "nodejs",
+    "identity",
+    "user"
+  ],
+  "author": "Vamshi K Ponnapalli <vamshi.ponnapalli@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "clone": "^1.0.2",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
+    "grunt-mocha-istanbul": "^5.0.1",
+    "istanbul": "^0.4.4",
+    "jshint-stylish": "^2.2.0",
+    "load-grunt-tasks": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0",
+    "time-grunt": "^1.4.0",
+    "wysknd-lib": "0.0.2",
+    "wysknd-test": "^2.2.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vamship/wysknd-identity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vamship/wysknd-identity/issues"
+  },
+  "homepage": "https://github.com/vamship/wysknd-identity"
+}
